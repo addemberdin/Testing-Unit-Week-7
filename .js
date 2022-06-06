@@ -7,10 +7,10 @@ function greeting(name){
       let greetingMultiple = '';
       greetingMultiple.forEach((elm) => {
         greetingMultiple += ', ' + elm; 
-   )};
+      });
     return 'Hey' + greetingMultiple + '!';
   }
-  return "Hey there!';
+  return 'Hey there!';
 }
 if (name === name.toUppersCare()) {
   return 'HELLO, ' + name + '!';
